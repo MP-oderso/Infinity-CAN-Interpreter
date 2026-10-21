@@ -6,6 +6,12 @@ import pandas as pd
 import folium
 from wetterdienst import Wetterdienst
 from streamlit_folium import st_folium
+#3. Falls der Zertifikatsfehler bleibt: Windows-Zertifikatsspeicher verwenden
+#Wenn ein Hochschulnetz, VPN, Proxy oder Virenschutz die HTTPS-Verbindung überprüft,kann ein zusätzliches Zertifikat nötig sein, das Windows kennt,
+# certifi aber nicht.
+# In diesem Fall hilft ein anderer Vertrauensspeicher statt eines weiteren Paketupdates.
+#Laut KI: .\.venv\Scripts\python.exe -m pip install --upgrade pip-system-certs
+
 # bis hier
 
 st.title("Wetter am Niederrhein")
