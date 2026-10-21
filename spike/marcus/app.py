@@ -43,6 +43,7 @@ st.line_chart(data.set_index("Category")["Value"])
 
 # ki unterstützung
 api = Wetterdienst(provider="dwd", network="observation")
+
 request = api(
     parameters=[("daily", "climate_summary")],
     periods=["historical"],
