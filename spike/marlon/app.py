@@ -1,7 +1,8 @@
+#erstellt mithilfe von KI, um die plausibilität der CAN-Daten zu überprüfen und in einer Streamlit-App anzuzeigen
 import pandas as pd
 import streamlit as st
 from daten import Messungen
-from funktionen import check_plausibilität, del_duplicates
+from funktionen import check_plausibilität, del_duplicates, print_messung
 
 st.title("CAN-Datenanzeige")
 
@@ -27,7 +28,7 @@ for messung in Messungen:
 #print the plausible data
 if __name__== "__main__":
     for messung in plausible_data:
-        print(f"Messung: {messung['CAN_Message']}, Wert: {messung['value']} {messung['unit']}, Zeitstempel: {messung['timestamp']}")
+        print_messung(messung)
 
 #display the  data in a Streamlit app 
 if plausible_data:
