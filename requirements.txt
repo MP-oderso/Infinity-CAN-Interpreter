@@ -5,4 +5,4 @@ pandas>=2.2,<3
 numpy>=1.26,<3
 matplotlib>=3.8,<4
 ipykernel>=6.29,<7
-wetterdienst==0.159.0
+wetterdienst==0.167.0
