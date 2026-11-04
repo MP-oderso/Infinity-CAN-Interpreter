@@ -3,8 +3,8 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 import h5py
 
-max_path = Path(__file__) #für die Pfadbestimmung
-main_path = max_path.parent.parent.parent
+max_path = Path(__file__).resolve().parent #für die Pfadbestimmung
+main_path = max_path.parent.parent
 temp_path = main_path / "temp"
 data_path = main_path / "data"
 print(f"max_path: {max_path}")
