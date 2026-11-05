@@ -225,6 +225,8 @@ Logger_Data.zip
 
 
 #eigenes zeug
-output/
-temp/
+data/*
+!data/.gitkeep
+temp/*
+!temp/.gitkeep
 eigeneszeug/
