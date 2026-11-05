@@ -219,3 +219,12 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 Logger_Data.zip
+
+
+
+
+
+#eigenes zeug
+output/ #Ordner für die Ausgaben der Skripte ist auf GitHub nicht relevant, da die Ausgaben nur lokal gebraucht werden
+temp/ #Ordner für temporäre Dateien, die nur lokal gebraucht werden
+eigeneszeug/ #Ordner für eigene Skripte, die nur lokal gebraucht werden
