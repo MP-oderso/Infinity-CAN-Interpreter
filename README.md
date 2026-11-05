@@ -7,3 +7,6 @@ damit diese ausgewertet werden können.
 
 
 Sprintziel 01: Jede Person arbeitet sicher im Repository, Datenquellen sind identiziert und ersten Daten lassen sich in Streamlit anzeigen
+
+Sprintziel 02: Überarbeitung der Datenumwandlung und Datensortierung für eine einfachere Verarbeitung unserer Datenbank. 
+               Konzepterstellung der Visualisierung und Eingrenzung der benötigten Datenpunkt aus den Vorhandenen. 
