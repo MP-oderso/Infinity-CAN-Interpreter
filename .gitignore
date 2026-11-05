@@ -219,3 +219,14 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 Logger_Data.zip
+
+
+
+
+
+#eigenes zeug
+data/*
+!data/.gitkeep
+temp/*
+!temp/.gitkeep
+eigeneszeug/
