@@ -5,7 +5,7 @@ import h5py
 import pyarrow.compute as pc
 
 max_path = Path(__file__).resolve().parent #für die Pfadbestimmung
-main_path = max_path.parent.parent
+main_path = max_path.parent
 temp_path = main_path / "temp"
 data_path = main_path / "data"
 
