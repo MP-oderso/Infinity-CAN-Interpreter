@@ -229,4 +229,7 @@ data/*
 !data/.gitkeep
 temp/*
 !temp/.gitkeep
+!temp/Measurement_10.mat
 eigeneszeug/
+sorted_data/*
+!sorted_data/.gitkeep
